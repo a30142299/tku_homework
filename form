@@ -1,0 +1,21 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+</style>
+</head>
+<body>
+	<form method="get">
+		<input type="password" name="pw" pattern="[0-9A-Za-z!@#$%^&*/.,\';-=]+" required>
+		<input type="email" name="" required>
+		<input type="submit" name="sub">
+	</form>
+	<form method="get">
+		<input type="text" name="" value="">
+		<input type="submit" name="" value="">
+		<input type="button" name="" value="">
+		<input type="number" name="' min="0" max="100">
+	</form>
+</body>
+</html>
