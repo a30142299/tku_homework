@@ -17,5 +17,10 @@
 </head>
 <body>
 	<br><a href="http://google.com.tw/search?q=桃園三結義">更多關於桃園三結義</a>
+	<form action="7-1.php"method="get">
+	姓名：<input type="text" name="name">
+	年齡：<input type="text" name="age">
+	<input type=submit value="送出">
+	</form>
 </body>
 </html>
