@@ -1,0 +1,19 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>8.php</title>
+	<style type="text/css">
+</style>
+</head>
+<body>
+<form action="" method="get">
+<input type="color" name="favcolor">
+<input type="submit">
+</form>
+<?php
+$c=$_GET["favcolor"];
+echo "$c<br>"; //顯示顏色代碼
+echo "<font color=$c>Hello world!</font>" //將選的顏色跟font color做配合
+?>
+</body>
+</html>
