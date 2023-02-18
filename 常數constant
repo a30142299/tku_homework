@@ -1,0 +1,19 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>7.php</title>
+	<style type="text/css">
+</style>
+</head>
+<body>
+<?php
+define("pi",3.1415926); //定義數值不用+""
+define("TKU","淡江大學"); 
+$x=3.1415926;
+$s="淡江大學";
+echo"圓周率：$x<br>學校：$s<br>"; //一般輸出
+echo"圓周率：".pi."<BR>學校：".TKU."<br>"; //.X.可以輸出定義值
+
+?>
+</body>
+</html>
