@@ -1,0 +1,20 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>8.php</title>
+	<style type="text/css">
+</style>
+</head>
+<body>
+<?php
+echo PHP_INT_SIZE."<br>" ; //位元數(bit)*8=bytes數
+echo PHP_INT_MAX."<br>"; //‭整數最大值 +-9223372036854775807 (2^64/2 因為有正負值所以要/2)
+$num = PHP_INT_MAX;
+var_dump($num); //沒溢位，整數 程式表示式：int 9223372036854775807
+$num++;
+var_dump($num); //整數溢位，轉為浮點數 程式表示式：float 9.2233720368548E+18
+var_dump(28/7); //整數除得進，整式 程式表示式：int(4)
+var_dump(25/7); //整數除不進，浮點 程式表示式：float(3.5714285714286)
+?>
+</body>
+</html>
