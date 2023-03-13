@@ -1,0 +1,25 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>7.php</title>
+	<style type="text/css">
+</style>
+</head>
+<body>
+<?php
+	$a = array(); //先建立空陣列，再賦值
+	$a[0]= 65;
+	$a[1]= 175;
+	$a['apple'] = '蘋果' ;
+	$a['banana'] = '香蕉' ;
+	print_r($a) ;//將陣列全部輸出
+		echo"<br>";
+	$b=array(65,175,'apple'=>'蘋果','banana'=>'香蕉'); //直接建立陣列賦值
+	print_r($b) ;//一樣是從[0]開始
+		echo "<br>";
+	echo $a[1];
+		echo"<br>";
+	echo $a['apple'];
+?>
+</body>
+</html>
